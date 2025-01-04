@@ -52,6 +52,10 @@ html, body{
     justify-content: space-between;
 }
 
+#nav h3{
+    display: none;
+}
+
 #nav-part2{
     display: flex;
     align-items: center;
@@ -353,11 +357,22 @@ html, body{
 }
 
 #page4{
-    height: 50vh;
+    height: 70vh;
     width: 100%;
     background-color: #efeae3;
     padding: 10vw 2vw;
 }
+
+.swiper {
+    width: 100%;
+    height: 100%;
+  }
+
+.swiper .swiper-slide {
+    width: 20%;
+    border-left: 1px solid #aeadad;
+    padding: 0 2vw;
+  }
 
 #page5{
     height: 100vh;
@@ -440,3 +455,54 @@ html, body{
     justify-content: space-between;
     color: white;
 }
+
+#full-scr{
+    height: 100vh;
+    width: 100%;
+    background-color: #00000070;
+    position: fixed;
+    z-index: 99;
+    top: -100%;
+    transition: all ease 0.5s;
+}
+
+#full-div1{
+    height: 50%;
+    width: 100%;
+    background-color: #efeae3;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+}
+
+@media (max-width: 600px) {
+    #page1{
+        min-height: 100vh;
+        width: 100%;
+        padding: 0 vw;
+    }
+    
+    #nav{
+        padding: 8vw 5vw;
+        position: relative;
+        z-index: 100;
+        background-color: #efeae3;
+    }
+    
+    #nav img{
+        transition: all ease 0.2s;
+        height: 9vh;
+    }
+
+    #nav-part2{
+        display: none;
+    }
+    #nav h3{
+        display: block;
+        padding: 2vw 5vw;
+        border: 1px solid #ababab;
+        border-radius: 50%;
+        font-size: 4vw;
+        font-weight: 200;
+        padding-left: 10vw;
+    }
+}    
