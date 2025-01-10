@@ -36,7 +36,7 @@ html, body{
 
 #page1{
     min-height: 100vh;
-    width: 100%;
+    width: 100vw;
     background-color: #efeae3;
     position: relative;
     padding: 0 2vw;
@@ -44,7 +44,7 @@ html, body{
 
 nav {
     padding: 2vw 0vw;
-    width: 100%;
+    width: 100vw;
     /* background-color: red; */
     display: flex;
     align-items: center;
@@ -105,7 +105,7 @@ nav h3 {
 
 #center{
     height: 65vh;
-    width: 100%;
+    width: 100vw;
     /* background-color: orange; */
     display: flex;
     align-items: flex-end;
@@ -197,7 +197,7 @@ nav h3 {
 
 #page2{
     min-height: 100vh;
-    width: 100%;
+    width: 100vw;
     background-color: #efeae3;
     padding: 8vw 0;
     overflow: hidden;
@@ -305,7 +305,7 @@ nav h3 {
 
 #page3{
     min-height: 100vh;
-    width: 100%;
+    width: 100vw;
     background-color: #efeae3;
 } 
 
@@ -355,7 +355,7 @@ nav h3 {
 
 #page4{
     height: 70vh;
-    width: 100%;
+    width: 100vw;
     background-color: #efeae3;
     padding: 10vw 2vw;
 }
@@ -385,13 +385,13 @@ nav h3 {
 }
 #page5{
     height: 100vh;
-    width: 100%;
+    width: 100vw;
 }
 
 #footer {
     position: fixed;
     height: 100vh;
-    width: 100%;
+    width: 100vw;
     background-color: #000;
     color: #fff;
     z-index: 9;
@@ -570,10 +570,10 @@ nav h3 {
     border-bottom-right-radius: 20px;
 }
 
-@media (max-width: 600px) {
+@media (max-width: 768px) {
     #page1{
         min-height: 100vh;
-        width: 100%;
+        width: 100vw;
         padding: 0 vw;
     }
     
@@ -614,7 +614,7 @@ nav h3 {
 
     #center{
         height: 62vh;
-        width: 100%;
+        width: 100vw;
         /* background-color: orange; */
         display: flex;
         align-items: flex-end;
@@ -660,7 +660,7 @@ nav h3 {
     
     #page2{
         min-height: 100vh;
-        width: 100%;
+        width: 100vw;
         background-color: #efeae3;
         /* padding: 8vw 0;
         overflow: hidden; */
@@ -749,7 +749,7 @@ nav h3 {
 
     #page3{
         min-height: 70vh;
-        width: 100%;
+        width: 100vw;
         bottom: 0%;
         background-color: #efeae3;
     } 
@@ -780,7 +780,7 @@ nav h3 {
 
     #page4{
         height: 37vh;
-        width: 100%;
+        width: 100vw;
         background-color: #efeae3;
         padding: 2vw;
     }
@@ -824,7 +824,7 @@ nav h3 {
     #footer {
         position: fixed;
         height: 100vh;
-        width: 100%;
+        width: 100vw;
         background-color: #000;
         color: #fff;
         z-index: 9;
@@ -907,7 +907,7 @@ nav h3 {
     
     #footer-div {
         height: 70vh;
-        width: 100%;
+        width: 100vw;
         padding: 5px 45px;
         display: flex;
         justify-content: space-between;
