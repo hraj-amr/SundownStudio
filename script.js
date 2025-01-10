@@ -32,10 +32,8 @@ function swiperAnimation(){
     });
 }
 
-swiperAnimation()
-page4Animation()
-
-var menu = document.querySelector("nav h3")
+function menuAnimation(){
+    var menu = document.querySelector("nav h3")
 var full = document.querySelector("#full-scr")
 var navimg = document.querySelector("nav img")
 var flag = 0
@@ -50,3 +48,19 @@ menu.addEventListener("click",function(){
     flag = 0
     }
 })
+}
+
+function loaderAnimation(){
+    var loader = document.querySelector("#loader")
+setTimeout(function(){
+    loader.style.top = "-100%"
+},4200)
+
+
+}
+
+
+swiperAnimation()
+page4Animation()
+menuAnimation()
+loaderAnimation()
